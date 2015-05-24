@@ -1,0 +1,27 @@
+object-c 是ios开发的核心语言，在开发过程中也会配合使用c语言
+	C++,
+	oc 主要负责UI界面，C，C++可用于处理图形界面。
+
+基于C语言，并增加了一层最小的面向对象语言
+
+作用
+	oc可以开发
+		Mac os x
+		ios 平台的应用开发
+
+	没有包名（命名空间）的概念
+	包名——》前缀	
+	关键字都是@开头
+
+	基本数据类型 	char int float double BOOL(YES/NO)
+	nil			-> java 中得null
+	self		->	java中得this
+	基本语句		-> 循环语句 条件语句 goto语句
+	for遍历		-> for(xx in xx)
+	基类 		-> NSObject
+	继承			-> 单继承，用super关键字引用父类对象
+	异常处理		-> @try @catch @finally
+	注释			-> // 和 /* ... */
+	日志输出		-> NSLog(@"Hello") ;NSLog(@"age is %i",27);
+
+	
